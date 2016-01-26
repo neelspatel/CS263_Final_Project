@@ -1,0 +1,17 @@
+secret key
+api key
+aws key
+aws secret
+mandrill key
+twilio key
+gmail password
+hotmail password
+mongolab
+parse key
+stripe key
+azure key
+google key
+private key
+braintree key
+paypal password
+mongolab uri
