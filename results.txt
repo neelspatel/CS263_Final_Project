@@ -1,0 +1,379 @@
+https://github.com/zdot/django-boilerplate.git
+SECRET_KEY
+{"commits": 6, "branches": 1}
+
+https://github.com/imenetoumi/www_auf_org.git
+SECRET_KEY
+{"commits": 22, "branches": 1}
+
+https://github.com/robrechtdr/djangobox.git
+SECRET_KEY
+{"commits": 42, "branches": 1}
+
+https://github.com/robrechtdr/djangobox.git
+SECRET_KEY
+{"commits": 42, "branches": 1}
+
+https://github.com/ernestjumbe/django-bootstrap-template.git
+SECRET_KEY
+{"commits": 55, "branches": 1}
+
+https://github.com/yaph/flask-init.git
+SECRET_KEY
+{"commits": 22, "branches": 1}
+
+https://github.com/meowfreeze/django_startproject.git
+SECRET_KEY
+{"commits": 57, "branches": 3}
+
+https://github.com/ernestjumbe/django-scaffold.git
+SECRET_KEY
+{"commits": 49, "branches": 1}
+
+https://github.com/cottonwoodcoding/charles_ellsworth.git
+SECRET_KEY
+{"commits": 91, "branches": 2}
+
+https://github.com/ulope/django-template.git
+SECRET_KEY
+{"commits": 8, "branches": 1}
+
+https://github.com/justuswilhelm/senior-residence.git
+SECRET_KEY
+{"commits": 182, "branches": 1}
+
+https://github.com/bkuri/scatpod.git
+SECRET_KEY
+{"commits": 33, "branches": 2}
+
+https://github.com/marazmiki/django-project-template.git
+SECRET_KEY
+{"commits": 31, "branches": 1}
+
+https://github.com/polakj/Portfolio.git
+SECRET_KEY
+{"commits": 17, "branches": 1}
+
+https://github.com/PostTenebrasLab/PTL-Status-API.git
+SECRET_KEY
+{"commits": 70, "branches": 1}
+
+https://github.com/McPants/portfolio.git
+SECRET_KEY
+{"commits": 14, "branches": 1}
+
+https://github.com/kazu634/chef.git
+SECRET_KEY
+{"commits": 738, "branches": 9}
+
+https://github.com/justuswilhelm/senior-residence.git
+SECRET_KEY
+{"commits": 182, "branches": 1}
+
+https://github.com/bkuri/scatpod.git
+SECRET_KEY
+{"commits": 33, "branches": 2}
+
+https://github.com/marazmiki/django-project-template.git
+SECRET_KEY
+{"commits": 31, "branches": 1}
+
+https://github.com/polakj/Portfolio.git
+SECRET_KEY
+{"commits": 17, "branches": 1}
+
+https://github.com/PostTenebrasLab/PTL-Status-API.git
+SECRET_KEY
+{"commits": 70, "branches": 1}
+
+https://github.com/McPants/portfolio.git
+SECRET_KEY
+{"commits": 14, "branches": 1}
+
+https://github.com/kazu634/chef.git
+SECRET_KEY
+{"commits": 738, "branches": 9}
+
+https://github.com/pyprism/Hiren-Books.git
+SECRET_KEY
+{"commits": 104, "branches": 1}
+
+https://github.com/minimill/cerberus.git
+SECRET_KEY
+{"commits": 28, "branches": 1}
+
+https://github.com/LaMustax/skilleton.git
+SECRET_KEY
+{"commits": 11, "branches": 1}
+
+https://github.com/danrschlosser/isaaclevien.com.git
+SECRET_KEY
+{"commits": 8, "branches": 1}
+
+https://github.com/y2bishop2y/vagrant.flask.git
+SECRET_KEY
+{"commits": 5, "branches": 1}
+
+https://github.com/A-Estudiar/aestudiar_backend.git
+SECRET_KEY
+{"commits": 11, "branches": 1}
+
+https://github.com/tobbez/lys-reader.git
+SECRET_KEY
+{"commits": 118, "branches": 1}
+
+https://github.com/LukeHoersten/snaplet-postmark.git
+SECRET_KEY
+{"commits": 7, "branches": 1}
+
+https://github.com/greenmoon55/cntrains.git
+SECRET_KEY
+{"commits": 79, "branches": 1}
+
+https://github.com/MapStory/mapstory-geonode.git
+SECRET_KEY
+{"commits": 556, "branches": 9}
+
+https://github.com/nickray22/lafitte_mop.git
+SECRET_KEY
+{"commits": 5, "branches": 1}
+
+https://github.com/logandhead/flask-vagrant-puppet-boilerpate.git
+SECRET_KEY
+{"commits": 4, "branches": 1}
+
+https://github.com/theowni/encryptedSession-PHP.git
+SECRET_KEY
+{"commits": 3, "branches": 1}
+
+https://github.com/shea256/flask-app-generator.git
+SECRET_KEY
+{"commits": 40, "branches": 1}
+
+https://github.com/henriquebastos/dj-kickstart.git
+SECRET_KEY
+{"commits": 20, "branches": 1}
+
+https://github.com/catalyst/basil.git
+SECRET_KEY
+{"commits": 103, "branches": 2}
+
+https://github.com/clayman74/essential.git
+SECRET_KEY
+{"commits": 29, "branches": 2}
+
+https://github.com/matheusho/eventex.git
+SECRET_KEY
+{"commits": 83, "branches": 1}
+
+https://github.com/deis/example-spree.git
+SECRET_KEY
+{"commits": 1, "branches": 1}
+
+https://github.com/voltnor/pyChaos.git
+SECRET_KEY
+{"commits": 8, "branches": 1}
+
+https://github.com/develersrl/shorturl.git
+SECRET_KEY
+{"commits": 43, "branches": 1}
+
+https://github.com/jetsgit/fedtax.git
+SECRET_KEY
+{"commits": 3, "branches": 1}
+
+https://github.com/anaerobeth/dev-group-project.git
+SECRET_KEY
+{"commits": 16, "branches": 1}
+
+https://github.com/zdot/django-boilerplate.git
+SECRET_KEY
+{"commits": 6, "branches": 1}
+
+https://github.com/imenetoumi/www_auf_org.git
+SECRET_KEY
+{"commits": 22, "branches": 1}
+
+https://github.com/robrechtdr/djangobox.git
+SECRET_KEY
+{"commits": 42, "branches": 1}
+
+https://github.com/robrechtdr/djangobox.git
+SECRET_KEY
+{"commits": 42, "branches": 1}
+
+https://github.com/ernestjumbe/django-bootstrap-template.git
+SECRET_KEY
+{"commits": 55, "branches": 1}
+
+https://github.com/yaph/flask-init.git
+SECRET_KEY
+{"commits": 22, "branches": 1}
+
+https://github.com/meowfreeze/django_startproject.git
+SECRET_KEY
+{"commits": 57, "branches": 3}
+
+https://github.com/ernestjumbe/django-scaffold.git
+SECRET_KEY
+{"commits": 49, "branches": 1}
+
+https://github.com/cottonwoodcoding/charles_ellsworth.git
+SECRET_KEY
+{"commits": 91, "branches": 2}
+
+https://github.com/ulope/django-template.git
+SECRET_KEY
+{"commits": 8, "branches": 1}
+
+https://github.com/justuswilhelm/senior-residence.git
+SECRET_KEY
+{"commits": 182, "branches": 1}
+
+https://github.com/bkuri/scatpod.git
+SECRET_KEY
+{"commits": 33, "branches": 2}
+
+https://github.com/marazmiki/django-project-template.git
+SECRET_KEY
+{"commits": 31, "branches": 1}
+
+https://github.com/polakj/Portfolio.git
+SECRET_KEY
+{"commits": 17, "branches": 1}
+
+https://github.com/PostTenebrasLab/PTL-Status-API.git
+SECRET_KEY
+{"commits": 70, "branches": 1}
+
+https://github.com/McPants/portfolio.git
+SECRET_KEY
+{"commits": 14, "branches": 1}
+
+https://github.com/kazu634/chef.git
+SECRET_KEY
+{"commits": 738, "branches": 9}
+
+https://github.com/justuswilhelm/senior-residence.git
+SECRET_KEY
+{"commits": 182, "branches": 1}
+
+https://github.com/bkuri/scatpod.git
+SECRET_KEY
+{"commits": 33, "branches": 2}
+
+https://github.com/marazmiki/django-project-template.git
+SECRET_KEY
+{"commits": 31, "branches": 1}
+
+https://github.com/polakj/Portfolio.git
+SECRET_KEY
+{"commits": 17, "branches": 1}
+
+https://github.com/PostTenebrasLab/PTL-Status-API.git
+SECRET_KEY
+{"commits": 70, "branches": 1}
+
+https://github.com/McPants/portfolio.git
+SECRET_KEY
+{"commits": 14, "branches": 1}
+
+https://github.com/kazu634/chef.git
+SECRET_KEY
+{"commits": 738, "branches": 9}
+
+https://github.com/pyprism/Hiren-Books.git
+SECRET_KEY
+{"commits": 104, "branches": 1}
+
+https://github.com/minimill/cerberus.git
+SECRET_KEY
+{"commits": 28, "branches": 1}
+
+https://github.com/LaMustax/skilleton.git
+SECRET_KEY
+{"commits": 11, "branches": 1}
+
+https://github.com/danrschlosser/isaaclevien.com.git
+SECRET_KEY
+{"commits": 8, "branches": 1}
+
+https://github.com/y2bishop2y/vagrant.flask.git
+SECRET_KEY
+{"commits": 5, "branches": 1}
+
+https://github.com/A-Estudiar/aestudiar_backend.git
+SECRET_KEY
+{"commits": 11, "branches": 1}
+
+https://github.com/tobbez/lys-reader.git
+SECRET_KEY
+{"commits": 118, "branches": 1}
+
+https://github.com/LukeHoersten/snaplet-postmark.git
+SECRET_KEY
+{"commits": 7, "branches": 1}
+
+https://github.com/greenmoon55/cntrains.git
+SECRET_KEY
+{"commits": 79, "branches": 1}
+
+https://github.com/MapStory/mapstory-geonode.git
+SECRET_KEY
+{"commits": 556, "branches": 9}
+
+https://github.com/nickray22/lafitte_mop.git
+SECRET_KEY
+{"commits": 5, "branches": 1}
+
+https://github.com/logandhead/flask-vagrant-puppet-boilerpate.git
+SECRET_KEY
+{"commits": 4, "branches": 1}
+
+https://github.com/theowni/encryptedSession-PHP.git
+SECRET_KEY
+{"commits": 3, "branches": 1}
+
+https://github.com/shea256/flask-app-generator.git
+SECRET_KEY
+{"commits": 40, "branches": 1}
+
+https://github.com/henriquebastos/dj-kickstart.git
+SECRET_KEY
+{"commits": 20, "branches": 1}
+
+https://github.com/catalyst/basil.git
+SECRET_KEY
+{"commits": 103, "branches": 2}
+
+https://github.com/clayman74/essential.git
+SECRET_KEY
+{"commits": 29, "branches": 2}
+
+https://github.com/matheusho/eventex.git
+SECRET_KEY
+{"commits": 83, "branches": 1}
+
+https://github.com/deis/example-spree.git
+SECRET_KEY
+{"commits": 1, "branches": 1}
+
+https://github.com/voltnor/pyChaos.git
+SECRET_KEY
+{"commits": 8, "branches": 1}
+
+https://github.com/develersrl/shorturl.git
+SECRET_KEY
+{"commits": 43, "branches": 1}
+
+https://github.com/jetsgit/fedtax.git
+SECRET_KEY
+{"commits": 3, "branches": 1}
+
+https://github.com/anaerobeth/dev-group-project.git
+SECRET_KEY
+{"commits": 16, "branches": 1}
+
+https://github.com/zdot/django-boilerplate.git
+SECRET_KEY
+{"commits": 6, "branches": 1}

@@ -11,6 +11,8 @@ from time import sleep
 import math
 import pymongo, json
 
+import check_github
+
 
 def send_log(log):
     print "sending error log"
@@ -31,7 +33,7 @@ def send_log(log):
 
 # Pull all languages we are searching on into an array from the language file
 def get_languages(all_lang=False):
-    language_file = "common_languages.txt"
+    language_file = "languages.txt"
     if all_lang:
         language_file = "all_languages.txt"
     with open(language_file, "r") as lang_file:
@@ -119,7 +121,7 @@ def is_in_db(query, language):
     client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
     db = client.get_default_database()
     repos = db['repo_stats'].find_one({'search':query, 'language':language})
-    return repos is not None
+    return repos
 
 def write_to_db(query, language, num_results, dumps):
     client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
@@ -164,32 +166,12 @@ def pull_results(query, language):
     return repo_link_list
 
 
-if __name__ == '__main__':
-    parser = OptionParser()
-    parser.add_option("-m", "--minon", dest="minon_id", default=0,
-            help="The id of this minion")
-    parser.add_option("-n", "--totalminons", dest="num_minions", default=1,
-            help="The total number of minons to perform the scrape")
-    (options, args) = parser.parse_args()
+for search in get_searches():
+    for language in get_languages():
+        repos = is_in_db(search, language)
+        if repos:                                       
+            for url, search in repos["links"]:
+                check_github.check_repo("https://github.com" + url, search.split("+"))
 
-    reload(sys)
-    sys.setdefaultencoding("utf8")
-
-    #Simple hash partition of the list to distribute jobs uniformly
-    search_list=[]
-    for search in get_searches():
-        for language in get_languages(True):
-                hash_num = (abs(hash(str(language)+str(search))) % (10 ** 8)) % int(options.num_minions)
-                if hash_num == int(options.minon_id):
-                    search_list.append([search, language])
-
-    for search in search_list:
-        print "pulling language "+str(search[0])+" for search "+str(search[1])
-        # if not is_in_db(search[0], search[1]):
-        try:
-            pull_results(search[0], search[1])
-        except Exception as e:
-            print "Exception occured pulling results: "+str(e)
-            send_log(str(e))
 
 
