@@ -120,7 +120,7 @@ def check_repo(url, secrets):
 		#secret_lines = [re.findall(r"=\s?['\"](\w+?)['\"]", x) for x in secret_lines]		
 		
 
-		secret_lines = [tuple(x) for x in secret_lines if len(x) == 1]
+		secret_lines = [x[0] for x in secret_lines if len(x) == 1]
 		secret_lines = list(set(secret_lines))
 		if secret_lines:
 			print "Keys: ", secret_lines
