@@ -10,6 +10,7 @@ import tarfile
 from time import sleep
 import math
 import pymongo, json
+import re
 
 import check_github
 
@@ -128,6 +129,12 @@ def write_to_db(query, language, num_results, dumps):
     db = client.get_default_database()
     db['repo_stats'].insert({'search':query, 'language':language, 'results':num_results, 'links': dumps})
 
+def write_result_to_db(repo, language, passwords, count):
+    client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
+    db = client.get_default_database()
+    db['repo_results'].insert({'repo':repo, 'language':language, 'passwords': passwords, 'count': count})
+
+
 def pull_results(query, language):
     enc_query = urllib.quote_plus(query)
     html_dumps = []
@@ -166,12 +173,25 @@ def pull_results(query, language):
     return repo_link_list
 
 
-for search in get_searches():
-    for language in get_languages():
+
+count = 0
+for search in ["gmail+password", "yahoo+password", "password"]:
+    for language in ["Java", "PHP", "Python"]:
         repos = is_in_db(search, language)
-        if repos:                                       
-            for url, search in repos["links"]:
-                check_github.check_repo("https://github.com" + url, search.split("+"))
+        if repos:                                               
+            for repo, filename in repos["links"]:
+                secrets = check_github.check_repo("https://github.com" + repo, search.split("+"))
+                if secrets != None:
+                    count += 1
+                    if len(secrets) > 0:
+                        write_result_to_db(repo, language, secrets, count)
+
+
+
+
+#check_github.check_repo("https://github.com/felipegustavo/Reclame-UFBA", ["gmail", "password"])
+#check_github.check_repo("https://github.com/nPn-/first_android_project", ["gmail", "password"])
+#check_github.check_repo("https://github.com/comncon/numizmatclub", ["gmail", "password"])
 
 
 

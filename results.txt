@@ -1,379 +1,1200 @@
-https://github.com/zdot/django-boilerplate.git
-SECRET_KEY
-{"commits": 6, "branches": 1}
-
-https://github.com/imenetoumi/www_auf_org.git
-SECRET_KEY
-{"commits": 22, "branches": 1}
-
-https://github.com/robrechtdr/djangobox.git
-SECRET_KEY
-{"commits": 42, "branches": 1}
-
-https://github.com/robrechtdr/djangobox.git
-SECRET_KEY
-{"commits": 42, "branches": 1}
-
-https://github.com/ernestjumbe/django-bootstrap-template.git
-SECRET_KEY
-{"commits": 55, "branches": 1}
-
-https://github.com/yaph/flask-init.git
-SECRET_KEY
-{"commits": 22, "branches": 1}
-
-https://github.com/meowfreeze/django_startproject.git
-SECRET_KEY
-{"commits": 57, "branches": 3}
-
-https://github.com/ernestjumbe/django-scaffold.git
-SECRET_KEY
-{"commits": 49, "branches": 1}
-
-https://github.com/cottonwoodcoding/charles_ellsworth.git
-SECRET_KEY
-{"commits": 91, "branches": 2}
-
-https://github.com/ulope/django-template.git
-SECRET_KEY
-{"commits": 8, "branches": 1}
-
-https://github.com/justuswilhelm/senior-residence.git
-SECRET_KEY
-{"commits": 182, "branches": 1}
-
-https://github.com/bkuri/scatpod.git
-SECRET_KEY
-{"commits": 33, "branches": 2}
-
-https://github.com/marazmiki/django-project-template.git
-SECRET_KEY
-{"commits": 31, "branches": 1}
-
-https://github.com/polakj/Portfolio.git
-SECRET_KEY
-{"commits": 17, "branches": 1}
-
-https://github.com/PostTenebrasLab/PTL-Status-API.git
-SECRET_KEY
-{"commits": 70, "branches": 1}
-
-https://github.com/McPants/portfolio.git
-SECRET_KEY
-{"commits": 14, "branches": 1}
-
-https://github.com/kazu634/chef.git
-SECRET_KEY
-{"commits": 738, "branches": 9}
-
-https://github.com/justuswilhelm/senior-residence.git
-SECRET_KEY
-{"commits": 182, "branches": 1}
-
-https://github.com/bkuri/scatpod.git
-SECRET_KEY
-{"commits": 33, "branches": 2}
-
-https://github.com/marazmiki/django-project-template.git
-SECRET_KEY
-{"commits": 31, "branches": 1}
-
-https://github.com/polakj/Portfolio.git
-SECRET_KEY
-{"commits": 17, "branches": 1}
-
-https://github.com/PostTenebrasLab/PTL-Status-API.git
-SECRET_KEY
-{"commits": 70, "branches": 1}
-
-https://github.com/McPants/portfolio.git
-SECRET_KEY
-{"commits": 14, "branches": 1}
-
-https://github.com/kazu634/chef.git
-SECRET_KEY
-{"commits": 738, "branches": 9}
-
-https://github.com/pyprism/Hiren-Books.git
-SECRET_KEY
-{"commits": 104, "branches": 1}
-
-https://github.com/minimill/cerberus.git
-SECRET_KEY
-{"commits": 28, "branches": 1}
-
-https://github.com/LaMustax/skilleton.git
-SECRET_KEY
-{"commits": 11, "branches": 1}
-
-https://github.com/danrschlosser/isaaclevien.com.git
-SECRET_KEY
-{"commits": 8, "branches": 1}
-
-https://github.com/y2bishop2y/vagrant.flask.git
-SECRET_KEY
-{"commits": 5, "branches": 1}
-
-https://github.com/A-Estudiar/aestudiar_backend.git
-SECRET_KEY
-{"commits": 11, "branches": 1}
-
-https://github.com/tobbez/lys-reader.git
-SECRET_KEY
-{"commits": 118, "branches": 1}
-
-https://github.com/LukeHoersten/snaplet-postmark.git
-SECRET_KEY
-{"commits": 7, "branches": 1}
-
-https://github.com/greenmoon55/cntrains.git
-SECRET_KEY
-{"commits": 79, "branches": 1}
-
-https://github.com/MapStory/mapstory-geonode.git
-SECRET_KEY
-{"commits": 556, "branches": 9}
-
-https://github.com/nickray22/lafitte_mop.git
-SECRET_KEY
-{"commits": 5, "branches": 1}
-
-https://github.com/logandhead/flask-vagrant-puppet-boilerpate.git
-SECRET_KEY
-{"commits": 4, "branches": 1}
-
-https://github.com/theowni/encryptedSession-PHP.git
-SECRET_KEY
-{"commits": 3, "branches": 1}
-
-https://github.com/shea256/flask-app-generator.git
-SECRET_KEY
-{"commits": 40, "branches": 1}
-
-https://github.com/henriquebastos/dj-kickstart.git
-SECRET_KEY
-{"commits": 20, "branches": 1}
-
-https://github.com/catalyst/basil.git
-SECRET_KEY
-{"commits": 103, "branches": 2}
-
-https://github.com/clayman74/essential.git
-SECRET_KEY
-{"commits": 29, "branches": 2}
-
-https://github.com/matheusho/eventex.git
-SECRET_KEY
-{"commits": 83, "branches": 1}
-
-https://github.com/deis/example-spree.git
-SECRET_KEY
-{"commits": 1, "branches": 1}
-
-https://github.com/voltnor/pyChaos.git
-SECRET_KEY
-{"commits": 8, "branches": 1}
-
-https://github.com/develersrl/shorturl.git
-SECRET_KEY
-{"commits": 43, "branches": 1}
-
-https://github.com/jetsgit/fedtax.git
-SECRET_KEY
-{"commits": 3, "branches": 1}
-
-https://github.com/anaerobeth/dev-group-project.git
-SECRET_KEY
-{"commits": 16, "branches": 1}
-
-https://github.com/zdot/django-boilerplate.git
-SECRET_KEY
-{"commits": 6, "branches": 1}
-
-https://github.com/imenetoumi/www_auf_org.git
-SECRET_KEY
-{"commits": 22, "branches": 1}
-
-https://github.com/robrechtdr/djangobox.git
-SECRET_KEY
-{"commits": 42, "branches": 1}
-
-https://github.com/robrechtdr/djangobox.git
-SECRET_KEY
-{"commits": 42, "branches": 1}
-
-https://github.com/ernestjumbe/django-bootstrap-template.git
-SECRET_KEY
-{"commits": 55, "branches": 1}
-
-https://github.com/yaph/flask-init.git
-SECRET_KEY
-{"commits": 22, "branches": 1}
-
-https://github.com/meowfreeze/django_startproject.git
-SECRET_KEY
-{"commits": 57, "branches": 3}
-
-https://github.com/ernestjumbe/django-scaffold.git
-SECRET_KEY
-{"commits": 49, "branches": 1}
-
-https://github.com/cottonwoodcoding/charles_ellsworth.git
-SECRET_KEY
-{"commits": 91, "branches": 2}
-
-https://github.com/ulope/django-template.git
-SECRET_KEY
-{"commits": 8, "branches": 1}
-
-https://github.com/justuswilhelm/senior-residence.git
-SECRET_KEY
-{"commits": 182, "branches": 1}
-
-https://github.com/bkuri/scatpod.git
-SECRET_KEY
-{"commits": 33, "branches": 2}
-
-https://github.com/marazmiki/django-project-template.git
-SECRET_KEY
-{"commits": 31, "branches": 1}
-
-https://github.com/polakj/Portfolio.git
-SECRET_KEY
-{"commits": 17, "branches": 1}
-
-https://github.com/PostTenebrasLab/PTL-Status-API.git
-SECRET_KEY
-{"commits": 70, "branches": 1}
-
-https://github.com/McPants/portfolio.git
-SECRET_KEY
-{"commits": 14, "branches": 1}
-
-https://github.com/kazu634/chef.git
-SECRET_KEY
-{"commits": 738, "branches": 9}
-
-https://github.com/justuswilhelm/senior-residence.git
-SECRET_KEY
-{"commits": 182, "branches": 1}
-
-https://github.com/bkuri/scatpod.git
-SECRET_KEY
-{"commits": 33, "branches": 2}
-
-https://github.com/marazmiki/django-project-template.git
-SECRET_KEY
-{"commits": 31, "branches": 1}
-
-https://github.com/polakj/Portfolio.git
-SECRET_KEY
-{"commits": 17, "branches": 1}
-
-https://github.com/PostTenebrasLab/PTL-Status-API.git
-SECRET_KEY
-{"commits": 70, "branches": 1}
-
-https://github.com/McPants/portfolio.git
-SECRET_KEY
-{"commits": 14, "branches": 1}
-
-https://github.com/kazu634/chef.git
-SECRET_KEY
-{"commits": 738, "branches": 9}
-
-https://github.com/pyprism/Hiren-Books.git
-SECRET_KEY
-{"commits": 104, "branches": 1}
-
-https://github.com/minimill/cerberus.git
-SECRET_KEY
-{"commits": 28, "branches": 1}
-
-https://github.com/LaMustax/skilleton.git
-SECRET_KEY
-{"commits": 11, "branches": 1}
-
-https://github.com/danrschlosser/isaaclevien.com.git
-SECRET_KEY
-{"commits": 8, "branches": 1}
-
-https://github.com/y2bishop2y/vagrant.flask.git
-SECRET_KEY
-{"commits": 5, "branches": 1}
-
-https://github.com/A-Estudiar/aestudiar_backend.git
-SECRET_KEY
-{"commits": 11, "branches": 1}
-
-https://github.com/tobbez/lys-reader.git
-SECRET_KEY
-{"commits": 118, "branches": 1}
-
-https://github.com/LukeHoersten/snaplet-postmark.git
-SECRET_KEY
-{"commits": 7, "branches": 1}
-
-https://github.com/greenmoon55/cntrains.git
-SECRET_KEY
-{"commits": 79, "branches": 1}
-
-https://github.com/MapStory/mapstory-geonode.git
-SECRET_KEY
-{"commits": 556, "branches": 9}
-
-https://github.com/nickray22/lafitte_mop.git
-SECRET_KEY
-{"commits": 5, "branches": 1}
-
-https://github.com/logandhead/flask-vagrant-puppet-boilerpate.git
-SECRET_KEY
-{"commits": 4, "branches": 1}
-
-https://github.com/theowni/encryptedSession-PHP.git
-SECRET_KEY
-{"commits": 3, "branches": 1}
-
-https://github.com/shea256/flask-app-generator.git
-SECRET_KEY
-{"commits": 40, "branches": 1}
-
-https://github.com/henriquebastos/dj-kickstart.git
-SECRET_KEY
-{"commits": 20, "branches": 1}
-
-https://github.com/catalyst/basil.git
-SECRET_KEY
-{"commits": 103, "branches": 2}
-
-https://github.com/clayman74/essential.git
-SECRET_KEY
-{"commits": 29, "branches": 2}
-
-https://github.com/matheusho/eventex.git
-SECRET_KEY
-{"commits": 83, "branches": 1}
-
-https://github.com/deis/example-spree.git
-SECRET_KEY
-{"commits": 1, "branches": 1}
-
-https://github.com/voltnor/pyChaos.git
-SECRET_KEY
-{"commits": 8, "branches": 1}
-
-https://github.com/develersrl/shorturl.git
-SECRET_KEY
-{"commits": 43, "branches": 1}
-
-https://github.com/jetsgit/fedtax.git
-SECRET_KEY
-{"commits": 3, "branches": 1}
-
-https://github.com/anaerobeth/dev-group-project.git
-SECRET_KEY
-{"commits": 16, "branches": 1}
-
-https://github.com/zdot/django-boilerplate.git
-SECRET_KEY
-{"commits": 6, "branches": 1}
+commit 2f351cc63dfec0a4a7f66f559114b1363f6ba71d
+Author: Neel Patel <neelpatel@Neels-MacBook-Pro.local>
+Date:   Mon Jan 25 23:07:28 2016 -0500
+
+    Check github working to extract keys
+
+diff --git a/check_github.py b/check_github.py
+index 581d786..182a320 100644
+--- a/check_github.py
++++ b/check_github.py
+@@ -1,6 +1,7 @@
+ import os
+ import json
+-import github
++import subprocess
++from threading import Thread
+ 
+ #formats the secret line which we've read from the repo by removing leading + and -, tabs, and newlines
+ def clean_secret_line(line):
+@@ -16,36 +17,72 @@ def clean_secret_line(line):
+ 	return line
+ 
+ def secrets_in_line(line, secrets, stopper_words=[]):
+-    """
+-    line is the input line
+-    secrets is a list of search terms
+-    stopper_words is a list of common placeholders
+-    returns True if an = sign exists (assignment) 
+-    OR any of the secrets are in the line
+-    AND none of the stopper words are in the line 
+-    """
+-    # check if equal signs is 
+-    flag = '=' in line
+-    for secret in secrets:
+-        flag = flag or (secret in line)  
+-    # check for stopper words
+-    for stopper_word in stopper_words:
+-        if stopper_word in line:
+-            return False
+-    return flag
++	"""
++	line is the input line
++	secrets is a list of search terms
++	stopper_words is a list of common placeholders
++	returns True if an = sign exists (assignment) 
++	OR any of the secrets are in the line
++	AND none of the stopper words are in the line 
++	"""
++	# check if equal signs is 
++	flag = '=' in line
++	if not flag:
++		return False
++	
++	for secret in secrets:
++		flag = flag or (secret in line)  
++	# check for stopper words
++	for stopper_word in stopper_words:
++		if stopper_word in line:
++			return False
++	return flag
+ 
+ # exclude things that look like environment variables 
+ def is_environment_var(line):
+-    """
+-    True if looks like setting to environment variable
+-    """
+-    return  ("env" in line) or ("ENV" in line)
++	"""
++	True if looks like setting to environment variable
++	"""
++	return  ("env" in line) or ("ENV" in line)
++
++class SubprocessTimeoutError(RuntimeError):
++  """Error class for subprocess timeout."""
++  pass
++
++#from http://www.ostricher.com/2015/01/python-subprocess-with-timeout/
++def run_command_with_timeout(cmd, timeout_sec, mute=False):
++    """Execute `cmd` in a subprocess and enforce timeout `timeout_sec` seconds.
++ 
++    Return subprocess exit code on natural completion of the subprocess.
++    Raise an exception if timeout expires before subprocess completes."""
++    if not mute:
++    	proc = subprocess.Popen(cmd)
++    else:
++    	proc = subprocess.Popen(cmd, stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
++    proc_thread = Thread(target=proc.communicate)
++    proc_thread.start()
++    proc_thread.join(timeout_sec)
++    if proc_thread.is_alive():
++        # Process still running - kill it and raise timeout error
++        try:
++            proc.kill()
++        except OSError, e:
++            # The process finished between the `is_alive()` and `kill()`
++            return proc.returncode
++        # OK, the process was definitely killed
++        raise SubprocessTimeoutError('Process #%d killed after %f seconds' % (proc.pid, timeout_sec))
++    # Process completed naturally - return exit code
++    return proc.returncode
+ 
+ #checks the given repo URL for values of the given secret variable
+ def check_repo(url, secrets):
++	print url
++
++	#clone the repo			
++	#os.system("git clone " + url)
++	#subprocess.Popen(["git", "clone", url]).wait()		
+ 	try:
+-		#clone the repo			
+-		os.system("git clone " + url)
++		run_command_with_timeout(["git", "clone", url], 15, mute=True)
+ 
+ 		#enter the cloned repo
+ 		name = url.split("/")[-1]
+@@ -54,15 +91,15 @@ def check_repo(url, secrets):
+ 		os.chdir(name)
+ 
+ 		#gets the changed lines
+-		os.system("git log -S'" + secret + "' -p > secret.txt")
++		os.system("git log -S'" + "\|".join(secrets) + "' -p > secret.txt")
+ 
+ 		#find the lines containing secret
+ 		with open("secret.txt") as f:
+ 			lines = f.readlines()		
+-        
++		
+ 		secret_lines = [line for line in lines if secrets_in_line(line, secrets)]
+-        # filter lines that might be environment variables
+-        secret_lines = [line for line in secret_lines if not is_environment_var(line)]
++		# filter lines that might be environment variables
++		secret_lines = [line for line in secret_lines if not is_environment_var(line)]
+ 
+ 		os.chdir("../")
+ 		os.system("rm -rf " + name)
+@@ -72,9 +109,16 @@ def check_repo(url, secrets):
+ 
+ 		secret_lines = list(set(secret_lines))
+ 
++		#filter lines which have an extractable key
++		secret_lines = [re.findall(r"=\s?['\"](\w+?)['\"]", x) for x in secret_lines]
++		if secret_lines:
++			print "Keys: ", secret_lines
++
+ 		return secret_lines
+-	except:
++	except SubprocessTimeoutError:
++		print "Repo too big; moving on\n"
+ 		return []
++	
+ 
+ #checks each of a list of repos, where each repo contains a 
+ #URL, query (secret variable to search for), and other metadata
+@@ -93,7 +137,7 @@ def check_urls(urls):
+ 			outputfile.write(query + "\n")
+ 			outputfile.write(json.dumps(metadata) + "\n")
+ 
+-			secret_lines = check_repo(url, query)
++			secret_lines = check_repo(url, ["secret", "key"])
+ 			for line in secret_lines:
+ 				outputfile.write(line + "\n")
+ 
+@@ -115,12 +159,14 @@ urls = [
+ 
+ #urls = [['https://github.com/zdot/django-boilerplate.git', 'SECRET_KEY', {'commits': 6, 'branches': 1}], ['https://github.com/imenetoumi/www_auf_org.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/ernestjumbe/django-bootstrap-template.git', 'SECRET_KEY', {'commits': 55, 'branches': 1}], ['https://github.com/yaph/flask-init.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/meowfreeze/django_startproject.git', 'SECRET_KEY', {'commits': 57, 'branches': 3}], ['https://github.com/ernestjumbe/django-scaffold.git', 'SECRET_KEY', {'commits': 49, 'branches': 1}], ['https://github.com/cottonwoodcoding/charles_ellsworth.git', 'SECRET_KEY', {'commits': 91, 'branches': 2}], ['https://github.com/ulope/django-template.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/justuswilhelm/senior-residence.git', 'SECRET_KEY', {'commits': 182, 'branches': 1}], ['https://github.com/bkuri/scatpod.git', 'SECRET_KEY', {'commits': 33, 'branches': 2}], ['https://github.com/polakj/Portfolio.git', 'SECRET_KEY', {'commits': 17, 'branches': 1}], ['https://github.com/marazmiki/django-project-template.git', 'SECRET_KEY', {'commits': 31, 'branches': 1}], ['https://github.com/PostTenebrasLab/PTL-Status-API.git', 'SECRET_KEY', {'commits': 70, 'branches': 1}], ['https://github.com/McPants/portfolio.git', 'SECRET_KEY', {'commits': 14, 'branches': 1}]]
+ 
+-urls = github.pull_results("SECRET_KEY")
+-print urls
++#urls = github.pull_results("SECRET_KEY")
++#print urls
+ 
+ #urls = [['https://github.com/zdot/django-boilerplate.git', 'SECRET_KEY', {'commits': 6, 'branches': 1}], ['https://github.com/imenetoumi/www_auf_org.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/ernestjumbe/django-bootstrap-template.git', 'SECRET_KEY', {'commits': 55, 'branches': 1}], ['https://github.com/yaph/flask-init.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/meowfreeze/django_startproject.git', 'SECRET_KEY', {'commits': 57, 'branches': 3}], ['https://github.com/ernestjumbe/django-scaffold.git', 'SECRET_KEY', {'commits': 49, 'branches': 1}], ['https://github.com/cottonwoodcoding/charles_ellsworth.git', 'SECRET_KEY', {'commits': 91, 'branches': 2}], ['https://github.com/ulope/django-template.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/justuswilhelm/senior-residence.git', 'SECRET_KEY', {'commits': 182, 'branches': 1}], ['https://github.com/bkuri/scatpod.git', 'SECRET_KEY', {'commits': 33, 'branches': 2}], ['https://github.com/marazmiki/django-project-template.git', 'SECRET_KEY', {'commits': 31, 'branches': 1}], ['https://github.com/polakj/Portfolio.git', 'SECRET_KEY', {'commits': 17, 'branches': 1}], ['https://github.com/PostTenebrasLab/PTL-Status-API.git', 'SECRET_KEY', {'commits': 70, 'branches': 1}], ['https://github.com/McPants/portfolio.git', 'SECRET_KEY', {'commits': 14, 'branches': 1}], ['https://github.com/kazu634/chef.git', 'SECRET_KEY', {'commits': 738, 'branches': 9}], ['https://github.com/justuswilhelm/senior-residence.git', 'SECRET_KEY', {'commits': 182, 'branches': 1}], ['https://github.com/bkuri/scatpod.git', 'SECRET_KEY', {'commits': 33, 'branches': 2}], ['https://github.com/marazmiki/django-project-template.git', 'SECRET_KEY', {'commits': 31, 'branches': 1}], ['https://github.com/polakj/Portfolio.git', 'SECRET_KEY', {'commits': 17, 'branches': 1}], ['https://github.com/PostTenebrasLab/PTL-Status-API.git', 'SECRET_KEY', {'commits': 70, 'branches': 1}], ['https://github.com/McPants/portfolio.git', 'SECRET_KEY', {'commits': 14, 'branches': 1}], ['https://github.com/kazu634/chef.git', 'SECRET_KEY', {'commits': 738, 'branches': 9}], ['https://github.com/pyprism/Hiren-Books.git', 'SECRET_KEY', {'commits': 104, 'branches': 1}], ['https://github.com/minimill/cerberus.git', 'SECRET_KEY', {'commits': 28, 'branches': 1}], ['https://github.com/LaMustax/skilleton.git', 'SECRET_KEY', {'commits': 11, 'branches': 1}], ['https://github.com/danrschlosser/isaaclevien.com.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/y2bishop2y/vagrant.flask.git', 'SECRET_KEY', {'commits': 5, 'branches': 1}], ['https://github.com/A-Estudiar/aestudiar_backend.git', 'SECRET_KEY', {'commits': 11, 'branches': 1}], ['https://github.com/tobbez/lys-reader.git', 'SECRET_KEY', {'commits': 118, 'branches': 1}], ['https://github.com/LukeHoersten/snaplet-postmark.git', 'SECRET_KEY', {'commits': 7, 'branches': 1}], ['https://github.com/greenmoon55/cntrains.git', 'SECRET_KEY', {'commits': 79, 'branches': 1}], ['https://github.com/MapStory/mapstory-geonode.git', 'SECRET_KEY', {'commits': 556, 'branches': 9}], ['https://github.com/nickray22/lafitte_mop.git', 'SECRET_KEY', {'commits': 5, 'branches': 1}], ['https://github.com/logandhead/flask-vagrant-puppet-boilerpate.git', 'SECRET_KEY', {'commits': 4, 'branches': 1}], ['https://github.com/theowni/encryptedSession-PHP.git', 'SECRET_KEY', {'commits': 3, 'branches': 1}], ['https://github.com/shea256/flask-app-generator.git', 'SECRET_KEY', {'commits': 40, 'branches': 1}], ['https://github.com/henriquebastos/dj-kickstart.git', 'SECRET_KEY', {'commits': 20, 'branches': 1}], ['https://github.com/catalyst/basil.git', 'SECRET_KEY', {'commits': 103, 'branches': 2}], ['https://github.com/clayman74/essential.git', 'SECRET_KEY', {'commits': 29, 'branches': 2}], ['https://github.com/matheusho/eventex.git', 'SECRET_KEY', {'commits': 83, 'branches': 1}], ['https://github.com/deis/example-spree.git', 'SECRET_KEY', {'commits': 1, 'branches': 1}], ['https://github.com/voltnor/pyChaos.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/develersrl/shorturl.git', 'SECRET_KEY', {'commits': 43, 'branches': 1}], ['https://github.com/jetsgit/fedtax.git', 'SECRET_KEY', {'commits': 3, 'branches': 1}], ['https://github.com/anaerobeth/dev-group-project.git', 'SECRET_KEY', {'commits': 16, 'branches': 1}]]
+ 
+-check_urls(urls)
++
++
++
+ 
+ #print check_repo()
+ #print check_repo("https://github.com/ooola/ruggerfest", "SECRET_KEY")
+diff --git a/github.py b/github.py
+index f08689a..2e1ab77 100644
+--- a/github.py
++++ b/github.py
+@@ -11,6 +11,8 @@ from time import sleep
+ import math
+ import pymongo, json
+ 
++import check_github
++
+ 
+ def send_log(log):
+     print "sending error log"
+@@ -31,7 +33,7 @@ def send_log(log):
+ 
+ # Pull all languages we are searching on into an array from the language file
+ def get_languages(all_lang=False):
+-    language_file = "common_languages.txt"
++    language_file = "languages.txt"
+     if all_lang:
+         language_file = "all_languages.txt"
+     with open(language_file, "r") as lang_file:
+@@ -119,7 +121,7 @@ def is_in_db(query, language):
+     client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
+     db = client.get_default_database()
+     repos = db['repo_stats'].find_one({'search':query, 'language':language})
+-    return repos is not None
++    return repos
+ 
+ def write_to_db(query, language, num_results, dumps):
+     client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
+@@ -164,32 +166,12 @@ def pull_results(query, language):
+     return repo_link_list
+ 
+ 
+-if __name__ == '__main__':
+-    parser = OptionParser()
+-    parser.add_option("-m", "--minon", dest="minon_id", default=0,
+-            help="The id of this minion")
+-    parser.add_option("-n", "--totalminons", dest="num_minions", default=1,
+-            help="The total number of minons to perform the scrape")
+-    (options, args) = parser.parse_args()
+-
+-    reload(sys)
+-    sys.setdefaultencoding("utf8")
+-
+-    #Simple hash partition of the list to distribute jobs uniformly
+-    search_list=[]
+-    for search in get_searches():
+-        for language in get_languages(True):
+-                hash_num = (abs(hash(str(language)+str(search))) % (10 ** 8)) % int(options.num_minions)
+-                if hash_num == int(options.minon_id):
+-                    search_list.append([search, language])
+-
+-    for search in search_list:
+-        print "pulling language "+str(search[0])+" for search "+str(search[1])
+-        # if not is_in_db(search[0], search[1]):
+-        try:
+-            pull_results(search[0], search[1])
+-        except Exception as e:
+-            print "Exception occured pulling results: "+str(e)
+-            send_log(str(e))
++for search in get_searches():
++    for language in get_languages():
++        repos = is_in_db(search, language)
++        if repos:                                       
++            for url, search in repos["links"]:
++                check_github.check_repo("https://github.com" + url, search.split("+"))
++
+ 
+ 
+
+commit d5526c5bcd2f10bba25b69909d5079995580be74
+Author: Aran Khanna <arankhanna@college.harvard.edu>
+Date:   Mon Jan 25 21:40:02 2016 -0500
+
+    added a list of all the languages
+
+diff --git a/languages.txt b/languages.txt
+new file mode 100644
+index 0000000..55f962d
+--- /dev/null
++++ b/languages.txt
+@@ -0,0 +1,381 @@
++ActionScript
++C
++Cpp
++Clojure
++CoffeeScript
++CSS
++Go
++Haskell
++HTML
++Java
++JavaScript
++Lua
++Matlab
++Objective-C
++Perl
++PHP
++Python
++R
++Ruby
++Scala
++Shell
++Swift
++TeX
++VimL
++YAML
++ABAP
++Ada
++Agda
++AGS Script
++Alloy
++AMPL
++Ant Build System
++ANTLR
++ApacheConf
++Apex
++API Blueprint
++APL
++AppleScript
++Arc
++Arduino
++AsciiDoc
++ASP
++AspectJ
++Assembly
++ATS
++Augeas
++AutoHotkey
++AutoIt
++Awk
++Batchfile
++Befunge
++Bison
++BitBake
++BlitzBasic
++BlitzMax
++Bluespec
++Boo
++Brainfuck
++Brightscript
++Bro
++C-ObjDump
++C2hs Haskell
++Cap'n Proto
++CartoCSS
++Ceylon
++Chapel
++Charity
++ChucK
++Cirru
++Clarion
++Clean
++Click
++CLIPS
++CMake
++COBOL
++ColdFusion
++ColdFusion CFC
++Common Lisp
++Component Pascal
++Cool
++Coq
++Cpp-ObjDump
++Creole
++Crystal
++Cucumber
++Cuda
++Cycript
++Cython
++D
++D-ObjDump
++Darcs Patch
++Dart
++desktop
++Diff
++DIGITAL Command Language
++DM
++DNS Zone
++Dockerfile
++Dogescript
++DTrace
++Dylan
++E
++Eagle
++eC
++Ecere Projects
++ECL
++ECLiPSe
++edn
++Eiffel
++Elixir
++Elm
++Emacs Lisp
++EmberScript
++Erlang
++Fsharp
++Factor
++Fancy
++Fantom
++Filterscript
++fish
++FLUX
++Formatted
++Forth
++FORTRAN
++FreeMarker
++Frege
++G-code
++Game Maker Language
++GAMS
++GAP
++GAS
++GDScript
++Genshi
++Gentoo Ebuild
++Gentoo Eclass
++Gettext Catalog
++GLSL
++Glyph
++Gnuplot
++Golo
++Gosu
++Grace
++Gradle
++Grammatical Framework
++Graph Modeling Language
++Graphviz (DOT)
++Groff
++Groovy
++Groovy Server Pages
++Hack
++Haml
++Handlebars
++Harbour
++Haxe
++HCL
++Django
++EEX
++ERB
++HTTP
++Hy
++HyPhy
++IDL
++Idris
++IGOR Pro
++Inform 7
++INI
++Inno Setup
++Io
++Ioke
++IRC log
++Isabelle
++Isabelle ROOT
++J
++Jade
++Jasmin
++Java Server Pages
++JFlex
++JSON
++JSON5
++JSONiq
++JSONLD
++JSX
++Julia
++Jupyter Notebook
++KiCad
++Kit
++Kotlin
++KRL
++LabVIEW
++Lasso
++Latte
++Lean
++Less
++Lex
++LFE
++LilyPond
++Limbo
++Linker Script
++Linux Kernel Module
++Liquid
++Literate Agda
++Literate CoffeeScript
++Literate Haskell
++LiveScript
++LLVM
++Logos
++Logtalk
++LOLCODE
++LookML
++LoomScript
++LSL
++M
++Makefile
++Mako
++Markdown
++Mask
++Mathematica
++Maven POM
++Max
++MAXScript
++MediaWiki
++Mercury
++Metal
++MiniD
++Mirah
++Modelica
++Modula-2
++Module Management System
++Monkey
++Moocode
++MoonScript
++MTML
++MUF
++mupad
++Myghty
++NCL
++Nemerle
++nesC
++NetLinx
++NetLogo
++NewLisp
++Nginx
++Nimrod
++Ninja
++Nit
++Nix
++NL
++NSIS
++Nu
++NumPy
++ObjDump
++Objective-J
++OCaml
++Omgrofl
++ooc
++Opa
++Opal
++OpenCL
++OpenEdge ABL
++OpenSCAD
++Org
++Ox
++Oxygene
++Oz
++Pan
++Papyrus
++Parrot
++Parrot Assembly
++Parrot Internal Representation
++Pascal
++PAWN
++Perl6
++Pickle
++PicoLisp
++PigLatin
++Pike
++PLpgSQL
++PLSQL
++Pod
++PogoScript
++Pony
++PostScript
++PowerShell
++Processing
++Prolog
++Propeller Spin
++Protocol Buffer
++Public Key
++Puppet
++Pure Data
++PureBasic
++PureScript
++Python traceback
++QMake
++QML
++Racket
++Ragel in Ruby Host
++RAML
++Raw token data
++RDoc
++REALbasic
++Rebol
++Red
++Redcode
++RenderScript
++reStructuredText
++RHTML
++RMarkdown
++RobotFramework
++Rouge
++Rust
++Sage
++SaltStack
++SAS
++Sass
++Scaml
++Scheme
++Scilab
++SCSS
++Self
++ShellSession
++Shen
++Slash
++Slim
++Smali
++Smalltalk
++Smarty
++SMT
++SourcePawn
++SPARQL
++SQF
++SQL
++SQLPL
++Squirrel
++Standard ML
++Stata
++STON
++Stylus
++SuperCollider
++SVG
++SystemVerilog
++Tcl
++Tcsh
++Tea
++Text
++Textile
++Thrift
++TOML
++Turing
++Turtle
++Twig
++TXL
++TypeScript
++Unified Parallel C
++Unity3D Asset
++UnrealScript
++UrWeb
++Vala
++VCL
++Verilog
++VHDL
++Visual Basic
++Volt
++Vue
++Web Ontology Language
++WebIDL
++wisp
++X10
++xBase
++XC
++XML
++Xojo
++XPages
++XProc
++XQuery
++XS
++XSLT
++Xtend
++Yacc
++Zephir
++Zimpl
+
+commit 302328d65438b1c8a597ac8946abef7d587812c9
+Author: Aran Khanna <arankhanna@college.harvard.edu>
+Date:   Mon Jan 25 21:21:04 2016 -0500
+
+    Update github.py
+
+diff --git a/github.py b/github.py
+index 94d9432..f08689a 100644
+--- a/github.py
++++ b/github.py
+@@ -1,111 +1,195 @@
+ import requests
+ import sys
+ import urllib
++import urllib2
+ from bs4 import BeautifulSoup
+ from optparse import OptionParser
+ import random
+ import os
+ import tarfile
+ from time import sleep
+-
+-# Tar ball for saving all the html files we pull
+-html_tar = tarfile.open('html_dumps.tar.bz2', 'w:bz2')
++import math
++import pymongo, json
++
++
++def send_log(log):
++    print "sending error log"
++    data = {
++        "key": "***",
++        "message": 
++        {   "text": log,
++            "subject": "Scraper Failed",
++            "from_email": "***",
++            "from_name": "Repo Scraper",
++            "to": [{"email": "***"}]
++        },
++        "async": "false"
++    }
++    encoded_data = json.dumps(data)
++    # TODO check for failure of failure log (haha)
++    urllib2.urlopen('https://mandrillapp.com/api/1.0/messages/send.json', encoded_data)
++
++# Pull all languages we are searching on into an array from the language file
++def get_languages(all_lang=False):
++    language_file = "common_languages.txt"
++    if all_lang:
++        language_file = "all_languages.txt"
++    with open(language_file, "r") as lang_file:
++        array = []
++        for cur_line in lang_file:
++            array.append(urllib.quote_plus(cur_line.rstrip('\n')))
++    return array
++
++def get_searches():
++    search_file = "searches.txt"
++    with open(search_file, "r") as searches:
++        array = []
++        for cur_line in searches:
++            array.append(urllib.quote_plus(cur_line.rstrip('\n')))
++    return array
+ 
+ # Select a random user agent uniformly from the file as the rate limit for github seems to be based off of this
+ def random_useragent():
+-	ua_file = open('user_agents.txt', 'r')
+-	cur_line = next(ua_file)
+-	for i, new_line in enumerate(ua_file):
+-		if random.randrange(i + 2): 
+-			continue
+-		cur_line = new_line
+-	return cur_line.rstrip('\n')
++    ua_file = open('user_agents.txt', 'r')
++    cur_line = next(ua_file)
++    for i, new_line in enumerate(ua_file):
++        if random.randrange(i + 2): 
++            continue
++        cur_line = new_line
++    return cur_line.rstrip('\n')
+ 
+ # Send a get request with a randomized user agent and delay (which can be turned off), if proxy is set to true, send it through an appropirate rotating proxy to
+ # circumvent ip based rate limiting
+-def obfuscated_request(request_string, delay=True, proxy=False):
+-	headers = {'User-Agent': random_useragent()}
+-	if delay:
+-		sleep(random.randint(1,3))
+-	if proxy:
+-		auth = requests.auth.HTTPProxyAuth('username', 'password')
+-		proxies = {'http': 'http://us-ca.proxymesh.com:31280'}
+-		return requests.get(request_string, proxies = proxies, headers = headers).text
+-	else:
+-		return requests.get(request_string, headers = headers).text
+-
+-# Saves an html page to a file name and then dumps it into the tar ball (to save the data to disk for later perusal)
+-def save_result(filename, contents):
+-	with open(filename, "w") as tmp:
+-		tmp.write(contents)
+-		tmp.close()
+-		html_tar.add(filename)
+-		os.remove(filename)
+-
+-# Gagues the popularity of a given repository based on the number of commits
+-def mine_repo_info(repo_link):
+-	response = obfuscated_request(repo_link)
+-	soup = BeautifulSoup(response)
+-	clone_url = soup.find('input', 'input-mini').get('value')
+-	meta_list = soup.find_all('span', 'num')
+-	repo_meta = {'commits': int(float(meta_list[0].text.replace(",", ""))), 'branches':int(float(meta_list[1].text.replace(",", "")))}
+-	return response, clone_url, repo_meta
+-
+-# Comb all result pages for a certain query (up to a maximum of 100), with the save param determining whether or not to log all
+-# pages crawled to disk
+-def pull_results(query, save=False):
+-	result_list=[]
+-	for page in range(1, 100):
+-		got_results = False
+-		attempts = 1
+-
+-		while got_results == False and attempts < 5:
+-
+-			print "On page", page
+-			try:
+-				enc_query = urllib.quote_plus(query)
+-				response = obfuscated_request('https://github.com/search?utf8=%E2%9C%93&p='+str(page)+'&q='+str(enc_query)+'&type=Code&ref=searchresults')
+-				if save:
+-					save_result(enc_query+'-page-'+str(page)+'.html', response)
+-				soup = BeautifulSoup(response)
+-				results = soup.find_all('p','title')
+-				for result in results:
+-					repo_link, file_link = result.find_all('a', href=True)
+-					repo, clone_url, repo_meta = mine_repo_info('https://github.com'+repo_link['href'])
+-					if save:
+-						save_result(repo_link['href'].replace('/', '-')+'.html', repo)
+-					# print clone_url, query, repo_meta
+-					result_list.append([clone_url, query, repo_meta])
+-				got_results = True
+-			except Exception as e:
+-				print str(e)
+-				print "BUSTED. We will wait till our ip is out of jail"
+-
+-				# Wait till we are no longer "suspicious" according to github.
+-				# We can perform 10 requests per minute when unauthenticated, 
+-				# so this wait should be sufficient
+-				sleep(attempts * 10)
+-
+-			attempts += 1
+-
+-	return result_list
++def obfuscated_request(request_string, proxy=False):
++    headers = {'User-Agent': random_useragent()}
++    print "sending "+request_string
++    if proxy:
++        auth = requests.auth.HTTPProxyAuth('username', 'password')
++        proxies = {'http': 'http://us-ca.proxymesh.com:31280'}
++        return requests.get(request_string, proxies = proxies, headers = headers).text
++    else:
++        return requests.get(request_string, headers = headers).text
++
++def safe_scrape(req_str):
++    got_results = False
++    attempts = 1
++    sleep(random.randint(2,4))
++    while attempts < 5:
++        try:
++            # if attempts <5:
++            response = obfuscated_request(req_str)
++            # else:
++            #   response = obfuscated_request(req_str, True)
++            return response
++        except Exception as e:
++            print str(e)
++            print "BUSTED. We will wait till our ip is probably out of jail"
++
++            # Wait till we are no longer "suspicious" according to github.
++            # We can perform 10 requests per minute when unauthenticated, 
++            # so this wait should be sufficient on average
++            sleep(attempts * random.randint(6,10))
++            attempts += 1
++    print "Failed on this one"
++    raise Exception("github shut us down")
++
++
++def recon_request(query, language):
++    page = safe_scrape('https://github.com/search?l='+language+'&p=1&q='+str(query)+'&type=Code&ref=searchresults&utf8=%E2%9C%93')
++    soup = BeautifulSoup(page)
++    results_tabs = soup.findAll("span", { "class" : "counter" })
++    for tab in results_tabs:
++        if 'Code' in tab.parent.text:
++            num_results = int(float(tab.text.replace(',','')))
++        return num_results, page
++    return 0, page
++
++
++def process_html(html_dumps):
++    repo_file_links = []
++    for dump in html_dumps:
++        soup = BeautifulSoup(dump)
++        results = soup.find_all('p','title')
++        for result in results:
++            repo_link, file_link = result.find_all('a', href=True)
++            repo_file_links.append([repo_link['href'], file_link['href']])
++    return repo_file_links
++
++def is_in_db(query, language):
++    client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
++    db = client.get_default_database()
++    repos = db['repo_stats'].find_one({'search':query, 'language':language})
++    return repos is not None
++
++def write_to_db(query, language, num_results, dumps):
++    client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
++    db = client.get_default_database()
++    db['repo_stats'].insert({'search':query, 'language':language, 'results':num_results, 'links': dumps})
++
++def pull_results(query, language):
++    enc_query = urllib.quote_plus(query)
++    html_dumps = []
++    num_results, html = recon_request(enc_query, language)
++    html_dumps.append(html)
++    if num_results == 0:
++        print "no results for "+language
++        return None
++    
++    num_pages = min(int(math.ceil(num_results/10.0)), 100)
++    if num_pages > 1:
++        for page in range(2, num_pages+1):
++            print "pulling page "+ str(page) + " of " + str(num_pages)
++            html_dumps.append(safe_scrape('https://github.com/search?l='+language+'&p='+str(page)+'&q='+str(enc_query)+'&type=Code&ref=searchresults&utf8=%E2%9C%93'))
++
++    print "processing blobs"
++    repo_link_list = process_html(html_dumps)
++
++    print "writing stats to db"
++    write_to_db(query, language, num_results, repo_link_list)
++    
++    print "writing blobs to disk"
++    keepcharacters = (' ','.','_')
++    raw_filename = str(query)+str(language)+'.tar.bz2'
++    filename = "".join(c for c in raw_filename if c.isalnum() or c in keepcharacters).rstrip()
++    html_tar = tarfile.open(filename, 'w:bz2')
++    for i, dump in enumerate(html_dumps):
++        path = str(i)+'.html'
++        with open(path, "w") as tmp:
++            tmp.write(dump)
++            tmp.close()
++            html_tar.add(path)
++            os.remove(path)
++    html_tar.close()
++
++    return repo_link_list
+ 
+ 
+ if __name__ == '__main__':
+-	parser = OptionParser()
+-	parser.add_option("-q", "--query", dest="query", default=None,
+-			help="The search query to issue on github (literally the exact same thing you put in the github search box)")
+-	parser.add_option("-s", "--save", dest="save", default=False,
+-			help="The search query to issue on github")
+-	(options, args) = parser.parse_args()
+-
+-	reload(sys)
+-	sys.setdefaultencoding("utf8")
+-	
+-	if options.query is not None:
+-		if options.save:
+-			print pull_results(options.query, True)
+-		else:
+-			print pull_results(options.query)
++    parser = OptionParser()
++    parser.add_option("-m", "--minon", dest="minon_id", default=0,
++            help="The id of this minion")
++    parser.add_option("-n", "--totalminons", dest="num_minions", default=1,
++            help="The total number of minons to perform the scrape")
++    (options, args) = parser.parse_args()
++
++    reload(sys)
++    sys.setdefaultencoding("utf8")
++
++    #Simple hash partition of the list to distribute jobs uniformly
++    search_list=[]
++    for search in get_searches():
++        for language in get_languages(True):
++                hash_num = (abs(hash(str(language)+str(search))) % (10 ** 8)) % int(options.num_minions)
++                if hash_num == int(options.minon_id):
++                    search_list.append([search, language])
++
++    for search in search_list:
++        print "pulling language "+str(search[0])+" for search "+str(search[1])
++        # if not is_in_db(search[0], search[1]):
++        try:
++            pull_results(search[0], search[1])
++        except Exception as e:
++            print "Exception occured pulling results: "+str(e)
++            send_log(str(e))
+ 
+ 
+
+commit 6b4aa6ee097ec1c6bddc42437d4886c489fc3d66
+Author: Neel Patel <neelpatel@Neels-MacBook-Pro.local>
+Date:   Mon Nov 30 06:20:16 2015 -0500
+
+    Adding to github; added fixes for handling rate limit issues by progressively waiting longer, and handling commas in counts from GitHub
+
+diff --git a/check_github.py b/check_github.py
+new file mode 100644
+index 0000000..a012a86
+--- /dev/null
++++ b/check_github.py
+@@ -0,0 +1,127 @@
++import os
++import json
++import github
++
++#formats the secret line which we've read from the repo by removing leading + and -, tabs, and newlines
++def clean_secret_line(line):
++	if line[0] == "+":
++		line = line[1:]
++	elif line[0] == "-":
++		line = line[1:]
++
++	#removes leading tabs
++	line = line.lstrip()
++
++	line = line.replace("\n", "")
++
++	return line
++	
++
++#checks the given repo URL for values of the given secret variable
++def check_repo(url, secret):
++	try:
++		#clone the repo			
++		os.system("git clone " + url)
++
++		#enter the cloned repo
++		name = url.split("/")[-1]
++		name = name.replace(".git", "")
++
++		os.chdir(name)
++
++		#gets the changed lines
++		os.system("git log -S'" + secret + "' -p > secret.txt")
++
++		#find the lines containing secret
++		with open("secret.txt") as f:
++			lines = f.readlines()		
++
++		secret_lines = [line for line in lines if secret in line]
++
++		os.chdir("../")
++		os.system("rm -rf " + name)
++
++		#removes leading -, +, and tabs from the lines
++		secret_lines = map(clean_secret_line, secret_lines)
++
++		secret_lines = list(set(secret_lines))
++
++		return secret_lines
++	except:
++		return []
++
++#checks each of a list of repos, where each repo contains a 
++#URL, query (secret variable to search for), and other metadata
++def check_urls(urls):
++	with open("results.txt", "a") as outputfile:
++		for url_object in urls:
++			#format of output:
++			#	url
++			#	query
++			#	data
++			#		list of passwords
++
++			url, query, metadata = url_object
++
++			print "Checking ", url, query
++
++			outputfile.write(url + "\n")
++			outputfile.write(query + "\n")
++			outputfile.write(json.dumps(metadata) + "\n")
++
++			secret_lines = check_repo(url, query)
++			for line in secret_lines:
++				outputfile.write(line + "\n")
++
++			outputfile.write("\n")
++
++'''
++urls = [
++	["https://github.com/ooola/ruggerfest", "SECRET_KEY", {"data": "test"}],
++	["https://github.com/sqs/openelections", "WEBAUTH_SECRET", {"data": "test"}],
++	["https://github.com/priestc/flightloggin2", "AWS_SECRET_KEY", {"data": "test"}],
++	["https://github.com/hilliard/basic-auth", "GMAIL_PASSWORD", {"data": "test"}],
++	["https://github.com/hecontreraso/crackplan", "GMAIL_PASSWORD", {"data": "test"}],
++	["https://github.com/gdb/domaincli", "stripe_api_key", {"data": "test"}],
++	["https://github.com/frank2workd/stripebank", "Stripe.api_key", {"data": "test"}],
++	["https://github.com/bcackerman/stripeanalytics", "Stripe.api_key", {"data": "test"}],	
++]
++'''
++
++
++#urls = [['https://github.com/zdot/django-boilerplate.git', 'SECRET_KEY', {'commits': 6, 'branches': 1}], ['https://github.com/imenetoumi/www_auf_org.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/ernestjumbe/django-bootstrap-template.git', 'SECRET_KEY', {'commits': 55, 'branches': 1}], ['https://github.com/yaph/flask-init.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/meowfreeze/django_startproject.git', 'SECRET_KEY', {'commits': 57, 'branches': 3}], ['https://github.com/ernestjumbe/django-scaffold.git', 'SECRET_KEY', {'commits': 49, 'branches': 1}], ['https://github.com/cottonwoodcoding/charles_ellsworth.git', 'SECRET_KEY', {'commits': 91, 'branches': 2}], ['https://github.com/ulope/django-template.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/justuswilhelm/senior-residence.git', 'SECRET_KEY', {'commits': 182, 'branches': 1}], ['https://github.com/bkuri/scatpod.git', 'SECRET_KEY', {'commits': 33, 'branches': 2}], ['https://github.com/polakj/Portfolio.git', 'SECRET_KEY', {'commits': 17, 'branches': 1}], ['https://github.com/marazmiki/django-project-template.git', 'SECRET_KEY', {'commits': 31, 'branches': 1}], ['https://github.com/PostTenebrasLab/PTL-Status-API.git', 'SECRET_KEY', {'commits': 70, 'branches': 1}], ['https://github.com/McPants/portfolio.git', 'SECRET_KEY', {'commits': 14, 'branches': 1}]]
++
++urls = github.pull_results("SECRET_KEY")
++print urls
++
++#urls = [['https://github.com/zdot/django-boilerplate.git', 'SECRET_KEY', {'commits': 6, 'branches': 1}], ['https://github.com/imenetoumi/www_auf_org.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/robrechtdr/djangobox.git', 'SECRET_KEY', {'commits': 42, 'branches': 1}], ['https://github.com/ernestjumbe/django-bootstrap-template.git', 'SECRET_KEY', {'commits': 55, 'branches': 1}], ['https://github.com/yaph/flask-init.git', 'SECRET_KEY', {'commits': 22, 'branches': 1}], ['https://github.com/meowfreeze/django_startproject.git', 'SECRET_KEY', {'commits': 57, 'branches': 3}], ['https://github.com/ernestjumbe/django-scaffold.git', 'SECRET_KEY', {'commits': 49, 'branches': 1}], ['https://github.com/cottonwoodcoding/charles_ellsworth.git', 'SECRET_KEY', {'commits': 91, 'branches': 2}], ['https://github.com/ulope/django-template.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/justuswilhelm/senior-residence.git', 'SECRET_KEY', {'commits': 182, 'branches': 1}], ['https://github.com/bkuri/scatpod.git', 'SECRET_KEY', {'commits': 33, 'branches': 2}], ['https://github.com/marazmiki/django-project-template.git', 'SECRET_KEY', {'commits': 31, 'branches': 1}], ['https://github.com/polakj/Portfolio.git', 'SECRET_KEY', {'commits': 17, 'branches': 1}], ['https://github.com/PostTenebrasLab/PTL-Status-API.git', 'SECRET_KEY', {'commits': 70, 'branches': 1}], ['https://github.com/McPants/portfolio.git', 'SECRET_KEY', {'commits': 14, 'branches': 1}], ['https://github.com/kazu634/chef.git', 'SECRET_KEY', {'commits': 738, 'branches': 9}], ['https://github.com/justuswilhelm/senior-residence.git', 'SECRET_KEY', {'commits': 182, 'branches': 1}], ['https://github.com/bkuri/scatpod.git', 'SECRET_KEY', {'commits': 33, 'branches': 2}], ['https://github.com/marazmiki/django-project-template.git', 'SECRET_KEY', {'commits': 31, 'branches': 1}], ['https://github.com/polakj/Portfolio.git', 'SECRET_KEY', {'commits': 17, 'branches': 1}], ['https://github.com/PostTenebrasLab/PTL-Status-API.git', 'SECRET_KEY', {'commits': 70, 'branches': 1}], ['https://github.com/McPants/portfolio.git', 'SECRET_KEY', {'commits': 14, 'branches': 1}], ['https://github.com/kazu634/chef.git', 'SECRET_KEY', {'commits': 738, 'branches': 9}], ['https://github.com/pyprism/Hiren-Books.git', 'SECRET_KEY', {'commits': 104, 'branches': 1}], ['https://github.com/minimill/cerberus.git', 'SECRET_KEY', {'commits': 28, 'branches': 1}], ['https://github.com/LaMustax/skilleton.git', 'SECRET_KEY', {'commits': 11, 'branches': 1}], ['https://github.com/danrschlosser/isaaclevien.com.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/y2bishop2y/vagrant.flask.git', 'SECRET_KEY', {'commits': 5, 'branches': 1}], ['https://github.com/A-Estudiar/aestudiar_backend.git', 'SECRET_KEY', {'commits': 11, 'branches': 1}], ['https://github.com/tobbez/lys-reader.git', 'SECRET_KEY', {'commits': 118, 'branches': 1}], ['https://github.com/LukeHoersten/snaplet-postmark.git', 'SECRET_KEY', {'commits': 7, 'branches': 1}], ['https://github.com/greenmoon55/cntrains.git', 'SECRET_KEY', {'commits': 79, 'branches': 1}], ['https://github.com/MapStory/mapstory-geonode.git', 'SECRET_KEY', {'commits': 556, 'branches': 9}], ['https://github.com/nickray22/lafitte_mop.git', 'SECRET_KEY', {'commits': 5, 'branches': 1}], ['https://github.com/logandhead/flask-vagrant-puppet-boilerpate.git', 'SECRET_KEY', {'commits': 4, 'branches': 1}], ['https://github.com/theowni/encryptedSession-PHP.git', 'SECRET_KEY', {'commits': 3, 'branches': 1}], ['https://github.com/shea256/flask-app-generator.git', 'SECRET_KEY', {'commits': 40, 'branches': 1}], ['https://github.com/henriquebastos/dj-kickstart.git', 'SECRET_KEY', {'commits': 20, 'branches': 1}], ['https://github.com/catalyst/basil.git', 'SECRET_KEY', {'commits': 103, 'branches': 2}], ['https://github.com/clayman74/essential.git', 'SECRET_KEY', {'commits': 29, 'branches': 2}], ['https://github.com/matheusho/eventex.git', 'SECRET_KEY', {'commits': 83, 'branches': 1}], ['https://github.com/deis/example-spree.git', 'SECRET_KEY', {'commits': 1, 'branches': 1}], ['https://github.com/voltnor/pyChaos.git', 'SECRET_KEY', {'commits': 8, 'branches': 1}], ['https://github.com/develersrl/shorturl.git', 'SECRET_KEY', {'commits': 43, 'branches': 1}], ['https://github.com/jetsgit/fedtax.git', 'SECRET_KEY', {'commits': 3, 'branches': 1}], ['https://github.com/anaerobeth/dev-group-project.git', 'SECRET_KEY', {'commits': 16, 'branches': 1}]]
++
++check_urls(urls)
++
++#print check_repo()
++#print check_repo("https://github.com/ooola/ruggerfest", "SECRET_KEY")
++#print check_repo("https://github.com/sqs/openelections", "WEBAUTH_SECRET")
++#print check_repo("https://github.com/elections/openelections", "WEBAUTH_SECRET")
++
++#this repo has thousands of flight details, and contains a secret key
++#print check_repo("https://github.com/priestc/flightloggin2", "AWS_SECRET_KEY")
++
++#these repos have a gmail email and password
++#print check_repo("https://github.com/hilliard/basic-auth", "GMAIL_PASSWORD")
++#print check_repo("https://github.com/hecontreraso/crackplan", "GMAIL_PASSWORD")
++
++#this has a Stripe API key, but may be garbage value
++#print check_repo("https://github.com/gdb/domaincli", "stripe_api_key")
++
++#this has a Stripe API key, but are sk_test_XXXXXX values
++#print check_repo("https://github.com/frank2workd/stripebank", "Stripe.api_key")
++#print check_repo("https://github.com/bcackerman/stripeanalytics", "Stripe.api_key")
++
++
++
++
++
++
++
++
++
+diff --git a/github.py b/github.py
+new file mode 100644
+index 0000000..94d9432
+--- /dev/null
++++ b/github.py
+@@ -0,0 +1,111 @@
++import requests
++import sys
++import urllib
++from bs4 import BeautifulSoup
++from optparse import OptionParser
++import random
++import os
++import tarfile
++from time import sleep
++
++# Tar ball for saving all the html files we pull
++html_tar = tarfile.open('html_dumps.tar.bz2', 'w:bz2')
++
++# Select a random user agent uniformly from the file as the rate limit for github seems to be based off of this
++def random_useragent():
++	ua_file = open('user_agents.txt', 'r')
++	cur_line = next(ua_file)
++	for i, new_line in enumerate(ua_file):
++		if random.randrange(i + 2): 
++			continue
++		cur_line = new_line
++	return cur_line.rstrip('\n')
++
++# Send a get request with a randomized user agent and delay (which can be turned off), if proxy is set to true, send it through an appropirate rotating proxy to
++# circumvent ip based rate limiting
++def obfuscated_request(request_string, delay=True, proxy=False):
++	headers = {'User-Agent': random_useragent()}
++	if delay:
++		sleep(random.randint(1,3))
++	if proxy:
++		auth = requests.auth.HTTPProxyAuth('username', 'password')
++		proxies = {'http': 'http://us-ca.proxymesh.com:31280'}
++		return requests.get(request_string, proxies = proxies, headers = headers).text
++	else:
++		return requests.get(request_string, headers = headers).text
++
++# Saves an html page to a file name and then dumps it into the tar ball (to save the data to disk for later perusal)
++def save_result(filename, contents):
++	with open(filename, "w") as tmp:
++		tmp.write(contents)
++		tmp.close()
++		html_tar.add(filename)
++		os.remove(filename)
++
++# Gagues the popularity of a given repository based on the number of commits
++def mine_repo_info(repo_link):
++	response = obfuscated_request(repo_link)
++	soup = BeautifulSoup(response)
++	clone_url = soup.find('input', 'input-mini').get('value')
++	meta_list = soup.find_all('span', 'num')
++	repo_meta = {'commits': int(float(meta_list[0].text.replace(",", ""))), 'branches':int(float(meta_list[1].text.replace(",", "")))}
++	return response, clone_url, repo_meta
++
++# Comb all result pages for a certain query (up to a maximum of 100), with the save param determining whether or not to log all
++# pages crawled to disk
++def pull_results(query, save=False):
++	result_list=[]
++	for page in range(1, 100):
++		got_results = False
++		attempts = 1
++
++		while got_results == False and attempts < 5:
++
++			print "On page", page
++			try:
++				enc_query = urllib.quote_plus(query)
++				response = obfuscated_request('https://github.com/search?utf8=%E2%9C%93&p='+str(page)+'&q='+str(enc_query)+'&type=Code&ref=searchresults')
++				if save:
++					save_result(enc_query+'-page-'+str(page)+'.html', response)
++				soup = BeautifulSoup(response)
++				results = soup.find_all('p','title')
++				for result in results:
++					repo_link, file_link = result.find_all('a', href=True)
++					repo, clone_url, repo_meta = mine_repo_info('https://github.com'+repo_link['href'])
++					if save:
++						save_result(repo_link['href'].replace('/', '-')+'.html', repo)
++					# print clone_url, query, repo_meta
++					result_list.append([clone_url, query, repo_meta])
++				got_results = True
++			except Exception as e:
++				print str(e)
++				print "BUSTED. We will wait till our ip is out of jail"
++
++				# Wait till we are no longer "suspicious" according to github.
++				# We can perform 10 requests per minute when unauthenticated, 
++				# so this wait should be sufficient
++				sleep(attempts * 10)
++
++			attempts += 1
++
++	return result_list
++
++
++if __name__ == '__main__':
++	parser = OptionParser()
++	parser.add_option("-q", "--query", dest="query", default=None,
++			help="The search query to issue on github (literally the exact same thing you put in the github search box)")
++	parser.add_option("-s", "--save", dest="save", default=False,
++			help="The search query to issue on github")
++	(options, args) = parser.parse_args()
++
++	reload(sys)
++	sys.setdefaultencoding("utf8")
++	
++	if options.query is not None:
++		if options.save:
++			print pull_results(options.query, True)
++		else:
++			print pull_results(options.query)
++
++

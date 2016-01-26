@@ -2,6 +2,7 @@ import os
 import json
 import subprocess
 from threading import Thread
+import re
 
 #formats the secret line which we've read from the repo by removing leading + and -, tabs, and newlines
 def clean_secret_line(line):
@@ -16,7 +17,7 @@ def clean_secret_line(line):
 
 	return line
 
-def secrets_in_line(line, secrets, stopper_words=[]):
+def secrets_in_line(line, secrets, stopper_words=[]):	
 	"""
 	line is the input line
 	secrets is a list of search terms
@@ -30,6 +31,7 @@ def secrets_in_line(line, secrets, stopper_words=[]):
 	if not flag:
 		return False
 	
+	flag = False
 	for secret in secrets:
 		flag = flag or (secret in line)  
 	# check for stopper words
@@ -76,27 +78,30 @@ def run_command_with_timeout(cmd, timeout_sec, mute=False):
 
 #checks the given repo URL for values of the given secret variable
 def check_repo(url, secrets):
-	print url
+	print url, secrets
 
 	#clone the repo			
 	#os.system("git clone " + url)
 	#subprocess.Popen(["git", "clone", url]).wait()		
 	try:
-		run_command_with_timeout(["git", "clone", url], 15, mute=True)
+		run_command_with_timeout(["git", "clone", url], 5, mute=True)
 
 		#enter the cloned repo
 		name = url.split("/")[-1]
 		name = name.replace(".git", "")
 
-		os.chdir(name)
+		try:
+			os.chdir(name)
+		except:
+			raise SubprocessTimeoutError("Directory not found")
 
 		#gets the changed lines
-		os.system("git log -S'" + "\|".join(secrets) + "' -p > secret.txt")
+		os.system("git log -S'" + "|".join(secrets) + "' -p --pickaxe-regex > secret.txt")
 
 		#find the lines containing secret
 		with open("secret.txt") as f:
-			lines = f.readlines()		
-		
+			lines = f.readlines()
+
 		secret_lines = [line for line in lines if secrets_in_line(line, secrets)]
 		# filter lines that might be environment variables
 		secret_lines = [line for line in secret_lines if not is_environment_var(line)]
@@ -107,17 +112,27 @@ def check_repo(url, secrets):
 		#removes leading -, +, and tabs from the lines
 		secret_lines = map(clean_secret_line, secret_lines)
 
-		secret_lines = list(set(secret_lines))
+		secret_lines = list(set(secret_lines))		
 
 		#filter lines which have an extractable key
-		secret_lines = [re.findall(r"=\s?['\"](\w+?)['\"]", x) for x in secret_lines]
+		find_secrets = ".*?(?:" + "|".join(secrets) + ").*?=\s?['\"](\w+?)['\"]"
+		secret_lines = [re.findall(find_secrets, x) for x in secret_lines]
+		#secret_lines = [re.findall(r"=\s?['\"](\w+?)['\"]", x) for x in secret_lines]		
+		
+
+		secret_lines = [tuple(x) for x in secret_lines if len(x) == 1]
+		secret_lines = list(set(secret_lines))
 		if secret_lines:
 			print "Keys: ", secret_lines
 
 		return secret_lines
 	except SubprocessTimeoutError:
 		print "Repo too big; moving on\n"
-		return []
+
+		name = url.split("/")[-1]
+		name = name.replace(".git", "")
+		os.system("rm -rf " + name)
+		return None
 	
 
 #checks each of a list of repos, where each repo contains a 
