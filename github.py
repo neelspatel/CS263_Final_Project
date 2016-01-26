@@ -1,111 +1,195 @@
 import requests
 import sys
 import urllib
+import urllib2
 from bs4 import BeautifulSoup
 from optparse import OptionParser
 import random
 import os
 import tarfile
 from time import sleep
+import math
+import pymongo, json
 
-# Tar ball for saving all the html files we pull
-html_tar = tarfile.open('html_dumps.tar.bz2', 'w:bz2')
+
+def send_log(log):
+    print "sending error log"
+    data = {
+        "key": "***",
+        "message": 
+        {   "text": log,
+            "subject": "Scraper Failed",
+            "from_email": "***",
+            "from_name": "Repo Scraper",
+            "to": [{"email": "***"}]
+        },
+        "async": "false"
+    }
+    encoded_data = json.dumps(data)
+    # TODO check for failure of failure log (haha)
+    urllib2.urlopen('https://mandrillapp.com/api/1.0/messages/send.json', encoded_data)
+
+# Pull all languages we are searching on into an array from the language file
+def get_languages(all_lang=False):
+    language_file = "common_languages.txt"
+    if all_lang:
+        language_file = "all_languages.txt"
+    with open(language_file, "r") as lang_file:
+        array = []
+        for cur_line in lang_file:
+            array.append(urllib.quote_plus(cur_line.rstrip('\n')))
+    return array
+
+def get_searches():
+    search_file = "searches.txt"
+    with open(search_file, "r") as searches:
+        array = []
+        for cur_line in searches:
+            array.append(urllib.quote_plus(cur_line.rstrip('\n')))
+    return array
 
 # Select a random user agent uniformly from the file as the rate limit for github seems to be based off of this
 def random_useragent():
-	ua_file = open('user_agents.txt', 'r')
-	cur_line = next(ua_file)
-	for i, new_line in enumerate(ua_file):
-		if random.randrange(i + 2): 
-			continue
-		cur_line = new_line
-	return cur_line.rstrip('\n')
+    ua_file = open('user_agents.txt', 'r')
+    cur_line = next(ua_file)
+    for i, new_line in enumerate(ua_file):
+        if random.randrange(i + 2): 
+            continue
+        cur_line = new_line
+    return cur_line.rstrip('\n')
 
 # Send a get request with a randomized user agent and delay (which can be turned off), if proxy is set to true, send it through an appropirate rotating proxy to
 # circumvent ip based rate limiting
-def obfuscated_request(request_string, delay=True, proxy=False):
-	headers = {'User-Agent': random_useragent()}
-	if delay:
-		sleep(random.randint(1,3))
-	if proxy:
-		auth = requests.auth.HTTPProxyAuth('username', 'password')
-		proxies = {'http': 'http://us-ca.proxymesh.com:31280'}
-		return requests.get(request_string, proxies = proxies, headers = headers).text
-	else:
-		return requests.get(request_string, headers = headers).text
+def obfuscated_request(request_string, proxy=False):
+    headers = {'User-Agent': random_useragent()}
+    print "sending "+request_string
+    if proxy:
+        auth = requests.auth.HTTPProxyAuth('username', 'password')
+        proxies = {'http': 'http://us-ca.proxymesh.com:31280'}
+        return requests.get(request_string, proxies = proxies, headers = headers).text
+    else:
+        return requests.get(request_string, headers = headers).text
 
-# Saves an html page to a file name and then dumps it into the tar ball (to save the data to disk for later perusal)
-def save_result(filename, contents):
-	with open(filename, "w") as tmp:
-		tmp.write(contents)
-		tmp.close()
-		html_tar.add(filename)
-		os.remove(filename)
+def safe_scrape(req_str):
+    got_results = False
+    attempts = 1
+    sleep(random.randint(2,4))
+    while attempts < 5:
+        try:
+            # if attempts <5:
+            response = obfuscated_request(req_str)
+            # else:
+            #   response = obfuscated_request(req_str, True)
+            return response
+        except Exception as e:
+            print str(e)
+            print "BUSTED. We will wait till our ip is probably out of jail"
 
-# Gagues the popularity of a given repository based on the number of commits
-def mine_repo_info(repo_link):
-	response = obfuscated_request(repo_link)
-	soup = BeautifulSoup(response)
-	clone_url = soup.find('input', 'input-mini').get('value')
-	meta_list = soup.find_all('span', 'num')
-	repo_meta = {'commits': int(float(meta_list[0].text.replace(",", ""))), 'branches':int(float(meta_list[1].text.replace(",", "")))}
-	return response, clone_url, repo_meta
+            # Wait till we are no longer "suspicious" according to github.
+            # We can perform 10 requests per minute when unauthenticated, 
+            # so this wait should be sufficient on average
+            sleep(attempts * random.randint(6,10))
+            attempts += 1
+    print "Failed on this one"
+    raise Exception("github shut us down")
 
-# Comb all result pages for a certain query (up to a maximum of 100), with the save param determining whether or not to log all
-# pages crawled to disk
-def pull_results(query, save=False):
-	result_list=[]
-	for page in range(1, 100):
-		got_results = False
-		attempts = 1
 
-		while got_results == False and attempts < 5:
+def recon_request(query, language):
+    page = safe_scrape('https://github.com/search?l='+language+'&p=1&q='+str(query)+'&type=Code&ref=searchresults&utf8=%E2%9C%93')
+    soup = BeautifulSoup(page)
+    results_tabs = soup.findAll("span", { "class" : "counter" })
+    for tab in results_tabs:
+        if 'Code' in tab.parent.text:
+            num_results = int(float(tab.text.replace(',','')))
+        return num_results, page
+    return 0, page
 
-			print "On page", page
-			try:
-				enc_query = urllib.quote_plus(query)
-				response = obfuscated_request('https://github.com/search?utf8=%E2%9C%93&p='+str(page)+'&q='+str(enc_query)+'&type=Code&ref=searchresults')
-				if save:
-					save_result(enc_query+'-page-'+str(page)+'.html', response)
-				soup = BeautifulSoup(response)
-				results = soup.find_all('p','title')
-				for result in results:
-					repo_link, file_link = result.find_all('a', href=True)
-					repo, clone_url, repo_meta = mine_repo_info('https://github.com'+repo_link['href'])
-					if save:
-						save_result(repo_link['href'].replace('/', '-')+'.html', repo)
-					# print clone_url, query, repo_meta
-					result_list.append([clone_url, query, repo_meta])
-				got_results = True
-			except Exception as e:
-				print str(e)
-				print "BUSTED. We will wait till our ip is out of jail"
 
-				# Wait till we are no longer "suspicious" according to github.
-				# We can perform 10 requests per minute when unauthenticated, 
-				# so this wait should be sufficient
-				sleep(attempts * 10)
+def process_html(html_dumps):
+    repo_file_links = []
+    for dump in html_dumps:
+        soup = BeautifulSoup(dump)
+        results = soup.find_all('p','title')
+        for result in results:
+            repo_link, file_link = result.find_all('a', href=True)
+            repo_file_links.append([repo_link['href'], file_link['href']])
+    return repo_file_links
 
-			attempts += 1
+def is_in_db(query, language):
+    client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
+    db = client.get_default_database()
+    repos = db['repo_stats'].find_one({'search':query, 'language':language})
+    return repos is not None
 
-	return result_list
+def write_to_db(query, language, num_results, dumps):
+    client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
+    db = client.get_default_database()
+    db['repo_stats'].insert({'search':query, 'language':language, 'results':num_results, 'links': dumps})
+
+def pull_results(query, language):
+    enc_query = urllib.quote_plus(query)
+    html_dumps = []
+    num_results, html = recon_request(enc_query, language)
+    html_dumps.append(html)
+    if num_results == 0:
+        print "no results for "+language
+        return None
+    
+    num_pages = min(int(math.ceil(num_results/10.0)), 100)
+    if num_pages > 1:
+        for page in range(2, num_pages+1):
+            print "pulling page "+ str(page) + " of " + str(num_pages)
+            html_dumps.append(safe_scrape('https://github.com/search?l='+language+'&p='+str(page)+'&q='+str(enc_query)+'&type=Code&ref=searchresults&utf8=%E2%9C%93'))
+
+    print "processing blobs"
+    repo_link_list = process_html(html_dumps)
+
+    print "writing stats to db"
+    write_to_db(query, language, num_results, repo_link_list)
+    
+    print "writing blobs to disk"
+    keepcharacters = (' ','.','_')
+    raw_filename = str(query)+str(language)+'.tar.bz2'
+    filename = "".join(c for c in raw_filename if c.isalnum() or c in keepcharacters).rstrip()
+    html_tar = tarfile.open(filename, 'w:bz2')
+    for i, dump in enumerate(html_dumps):
+        path = str(i)+'.html'
+        with open(path, "w") as tmp:
+            tmp.write(dump)
+            tmp.close()
+            html_tar.add(path)
+            os.remove(path)
+    html_tar.close()
+
+    return repo_link_list
 
 
 if __name__ == '__main__':
-	parser = OptionParser()
-	parser.add_option("-q", "--query", dest="query", default=None,
-			help="The search query to issue on github (literally the exact same thing you put in the github search box)")
-	parser.add_option("-s", "--save", dest="save", default=False,
-			help="The search query to issue on github")
-	(options, args) = parser.parse_args()
+    parser = OptionParser()
+    parser.add_option("-m", "--minon", dest="minon_id", default=0,
+            help="The id of this minion")
+    parser.add_option("-n", "--totalminons", dest="num_minions", default=1,
+            help="The total number of minons to perform the scrape")
+    (options, args) = parser.parse_args()
 
-	reload(sys)
-	sys.setdefaultencoding("utf8")
-	
-	if options.query is not None:
-		if options.save:
-			print pull_results(options.query, True)
-		else:
-			print pull_results(options.query)
+    reload(sys)
+    sys.setdefaultencoding("utf8")
+
+    #Simple hash partition of the list to distribute jobs uniformly
+    search_list=[]
+    for search in get_searches():
+        for language in get_languages(True):
+                hash_num = (abs(hash(str(language)+str(search))) % (10 ** 8)) % int(options.num_minions)
+                if hash_num == int(options.minon_id):
+                    search_list.append([search, language])
+
+    for search in search_list:
+        print "pulling language "+str(search[0])+" for search "+str(search[1])
+        # if not is_in_db(search[0], search[1]):
+        try:
+            pull_results(search[0], search[1])
+        except Exception as e:
+            print "Exception occured pulling results: "+str(e)
+            send_log(str(e))
 
 
