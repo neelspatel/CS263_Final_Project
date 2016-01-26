@@ -129,10 +129,10 @@ def write_to_db(query, language, num_results, dumps):
     db = client.get_default_database()
     db['repo_stats'].insert({'search':query, 'language':language, 'results':num_results, 'links': dumps})
 
-def write_result_to_db(repo, language, passwords, count):
+def write_result_to_db(repo, language, passwords, count, search):
     client = pymongo.MongoClient("mongodb://aran:aran1025@ds047020.mongolab.com:47020/personal-analytics")
     db = client.get_default_database()
-    db['repo_results'].insert({'repo':repo, 'language':language, 'passwords': passwords, 'count': count})
+    db['repo_results'].insert({'repo':repo, 'language':language, 'passwords': passwords, 'count': count, 'search': search})
 
 
 def pull_results(query, language):
@@ -184,7 +184,7 @@ for search in ["gmail+password", "yahoo+password", "password"]:
                 if secrets != None:
                     count += 1
                     if len(secrets) > 0:
-                        write_result_to_db(repo, language, secrets, count)
+                        write_result_to_db(repo, language, secrets, count, search)
 
 
 
