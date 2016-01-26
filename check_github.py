@@ -11,14 +11,38 @@ def clean_secret_line(line):
 
 	#removes leading tabs
 	line = line.lstrip()
-
 	line = line.replace("\n", "")
 
 	return line
-	
+
+def secrets_in_line(line, secrets, stopper_words=[]):
+    """
+    line is the input line
+    secrets is a list of search terms
+    stopper_words is a list of common placeholders
+    returns True if an = sign exists (assignment) 
+    OR any of the secrets are in the line
+    AND none of the stopper words are in the line 
+    """
+    # check if equal signs is 
+    flag = '=' in line
+    for secret in secrets:
+        flag = flag or (secret in line)  
+    # check for stopper words
+    for stopper_word in stopper_words:
+        if stopper_word in line:
+            return False
+    return flag
+
+# exclude things that look like environment variables 
+def is_environment_var(line):
+    """
+    True if looks like setting to environment variable
+    """
+    return  ("env" in line) or ("ENV" in line)
 
 #checks the given repo URL for values of the given secret variable
-def check_repo(url, secret):
+def check_repo(url, secrets):
 	try:
 		#clone the repo			
 		os.system("git clone " + url)
@@ -35,8 +59,10 @@ def check_repo(url, secret):
 		#find the lines containing secret
 		with open("secret.txt") as f:
 			lines = f.readlines()		
-
-		secret_lines = [line for line in lines if secret in line]
+        
+		secret_lines = [line for line in lines if secrets_in_line(line, secrets)]
+        # filter lines that might be environment variables
+        secret_lines = [line for line in secret_lines if not is_environment_var(line)]
 
 		os.chdir("../")
 		os.system("rm -rf " + name)
@@ -60,9 +86,7 @@ def check_urls(urls):
 			#	query
 			#	data
 			#		list of passwords
-
 			url, query, metadata = url_object
-
 			print "Checking ", url, query
 
 			outputfile.write(url + "\n")
